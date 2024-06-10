@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			// 요소 읽기
+			const headers = document.querySelectorAll('h1');
+
+			// 텍스트와 스타일 변경
+			headers.forEach((header) => {
+				header.textContent = 'HEADERS';
+				header.style.color = 'white';
+				header.style.backgroundColor = 'black';
+				header.style.padding = '10px';
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1></h1>
+	<h1></h1>
+	<h1></h1>
+	<h1></h1>
+</body>
+</html>
