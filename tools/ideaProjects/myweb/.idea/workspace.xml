@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3c62b08-126a-4ec4-9232-3b85bca0ee73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cooperation/git.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/01_start_react.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/01_start_react.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part03/Book.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part03/Book.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part03/Library.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part03/Library.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part04/clock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part04/clock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part05/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part05/Comment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part05/CommentList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part05/CommentList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part06/Notification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part06/Notification.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part06/NotificationList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part06/NotificationList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part07/Accommodate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part07/Accommodate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part07/useCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part07/useCounter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part08/ConfirmButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part08/ConfirmButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part09/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part09/LandingPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part09/Toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part09/Toolbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part10/AttendanceBook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part10/AttendanceBook.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part11/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part11/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part12/Calculator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part12/Calculator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part12/TemperatureInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part12/TemperatureInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part13/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part13/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part13/ProfileCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part13/ProfileCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part14/DarkOrLight.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part14/DarkOrLight.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part14/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part14/MainContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part14/ThemeContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part14/ThemeContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part15/Blocks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontend/react/vite-app/src/part15/Blocks.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2hmHf6d0Bj1HvsHr9UII6F3daJV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/redfo/git/sesac",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3c62b08-126a-4ec4-9232-3b85bca0ee73" name="Changes" comment="" />
+      <created>1718192434784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718192434784</updated>
+      <workItem from="1718192436117" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
