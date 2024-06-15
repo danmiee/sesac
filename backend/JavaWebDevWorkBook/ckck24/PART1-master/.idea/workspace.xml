@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5faf2b9e-dc92-4f03-93a5-867c7c064f18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../cooperation/git.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/01_start_react.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/01_start_react.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part03/Book.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part03/Book.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part03/Library.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part03/Library.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part04/clock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part04/clock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part05/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part05/Comment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part05/CommentList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part05/CommentList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part06/Notification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part06/Notification.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part06/NotificationList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part06/NotificationList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part07/Accommodate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part07/Accommodate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part07/useCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part07/useCounter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part08/ConfirmButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part08/ConfirmButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part09/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part09/LandingPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part09/Toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part09/Toolbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part10/AttendanceBook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part10/AttendanceBook.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part11/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part11/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part12/Calculator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part12/Calculator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part12/TemperatureInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part12/TemperatureInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part13/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part13/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part13/ProfileCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part13/ProfileCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part14/DarkOrLight.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part14/DarkOrLight.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part14/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part14/MainContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part14/ThemeContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part14/ThemeContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part15/Blocks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../frontend/react/vite-app/src/part15/Blocks.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;danmiee&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/danmiee/sesac.git&quot;,
+    &quot;accountId&quot;: &quot;a5ac3aac-653d-41de-ba6e-c466bf46d905&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2hRyyKG0OU0UYxWuM6GD81UjxyG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build PART1-master.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.89.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/redfo/git/sesac/backend/JavaWebDevWorkBook/ckck24/PART1-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22605364&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.89" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.89" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Gradle : org.zerock : w1-1.0-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="/index" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="77c3d4ed-6950-47e9-9d64-66e9a359ce1d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60159" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.zerock : w1-1.0-SNAPSHOT.war (exploded)" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5faf2b9e-dc92-4f03-93a5-867c7c064f18" name="Changes" comment="" />
+      <created>1717571437915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717571437915</updated>
+      <workItem from="1717571438961" duration="5592000" />
+      <workItem from="1717747590897" duration="596000" />
+      <workItem from="1717756582612" duration="9000" />
+      <workItem from="1718001395111" duration="5290000" />
+      <workItem from="1718155461311" duration="54000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
