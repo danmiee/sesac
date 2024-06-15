@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,intellij,java,eclipse,node,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,intellij,java,eclipse,node,visualstudiocode
 
+**/examples/
+**/.idea/
+**/out/
+
 ### Eclipse ###
 .metadata
 bin/
