@@ -51,7 +51,7 @@ public class TodoDAO {
         preparedStatement.executeUpdate();
     }
 
-    public List<TodoVO> seleectAll() throws Exception {
+    public List<TodoVO> selectAll() throws Exception {
         String sql = "SELECT * FROM tbl_todo";
 
         @Cleanup Connection connection = ConnectionUtil.INSTANCE.getConnection();

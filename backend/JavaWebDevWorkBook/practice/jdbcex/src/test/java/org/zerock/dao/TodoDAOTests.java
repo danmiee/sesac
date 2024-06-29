@@ -31,6 +31,7 @@ public class TodoDAOTests {
         TodoVO todoVO = TodoVO.builder()
                 .title("Sample Title...")
                 .dueDate(LocalDate.of(2021, 12, 31))
+//                .finished(true)
                 .build();
 
         todoDAO.insert(todoVO);
@@ -38,7 +39,7 @@ public class TodoDAOTests {
 
     @Test
     public void testList() throws Exception {
-        List<TodoVO> list = todoDAO.seleectAll();
+        List<TodoVO> list = todoDAO.selectAll();
         list.forEach(vo -> System.out.println(vo));
     }
 

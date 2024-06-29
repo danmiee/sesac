@@ -1,18 +1,18 @@
-package org.zerock.jdbcex.domain;
+package org.zerock.jdbcex.dto;
 
 import lombok.*;
 
 import java.time.LocalDate;
 
-@Getter
 @Builder
-@ToString
-@AllArgsConstructor
+@Data
 @NoArgsConstructor
-public class TodoVO {
+@AllArgsConstructor
+public class TodoDTO {
     private Long tno;
     private String title;
     private LocalDate dueDate;
     @Builder.Default
-    private boolean finished=false;
+    private boolean finished
+        =false;
 }
