@@ -1,5 +1,6 @@
 package com.mysite.sbb;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Optional;
@@ -64,11 +65,19 @@ class SbbApplicationTests {
 //		Question q = qList.get(0);
 //		assertEquals(q1SubjectString, q.getSubject());
 
-		// Edit title
+//		// Edit title
+//		Optional<Question> oq = this.questionRepository.findById(1);
+//		assertTrue(oq.isPresent()); // 참인지 테스트
+//		Question q = oq.get();
+//		q.setSubject("수정된 제목"); // subject 속성 수정
+//		this.questionRepository.save(q); // db에 저장
+
+		// Delete
+		assertEquals(2, this.questionRepository.count());
 		Optional<Question> oq = this.questionRepository.findById(1);
-		assertTrue(oq.isPresent()); // 참인지 테스트
+		assertTrue(oq.isPresent());
 		Question q = oq.get();
-		q.setSubject("수정된 제목"); // subject 속성 수정
-		this.questionRepository.save(q); // db에 저장
+		this.questionRepository.delete(q);
+		assertEquals(1, this.questionRepository.count());
 	}
 }
