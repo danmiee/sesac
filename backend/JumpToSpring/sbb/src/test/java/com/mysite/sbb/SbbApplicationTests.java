@@ -1,8 +1,8 @@
 package com.mysite.sbb;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.List;
+import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,9 +59,16 @@ class SbbApplicationTests {
 //		Question q = this.questionRepository.findBySubjectAndContent(q1SubjectString, q1ContenString);
 //		assertEquals(1, q.getId());
 
-		// findBySubjectList
-		List<Question> qList = this.questionRepository.findBySubjectLike("sbb%");
-		Question q = qList.get(0);
-		assertEquals(q1SubjectString, q.getSubject());
+//		// findBySubjectList
+//		List<Question> qList = this.questionRepository.findBySubjectLike("sbb%");
+//		Question q = qList.get(0);
+//		assertEquals(q1SubjectString, q.getSubject());
+
+		// Edit title
+		Optional<Question> oq = this.questionRepository.findById(1);
+		assertTrue(oq.isPresent()); // 참인지 테스트
+		Question q = oq.get();
+		q.setSubject("수정된 제목"); // subject 속성 수정
+		this.questionRepository.save(q); // db에 저장
 	}
 }
