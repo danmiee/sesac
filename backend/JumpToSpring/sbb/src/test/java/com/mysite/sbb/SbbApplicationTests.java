@@ -1,13 +1,15 @@
 package com.mysite.sbb;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
 class SbbApplicationTests {
@@ -18,12 +20,14 @@ class SbbApplicationTests {
 	private AnswerRepository answerRepository;
 
 	@Test
+	@Transactional // 메서드 종료까지 DB 세션 유지
 	void testJpa() {
 
 		String q1SubjectString = "sbb가 무엇인가요?";
 		String q1ContenString = "sbb에 대해 알고싶어요.";
 		String q2SubString = "스프링부트 모델 질문입니다.";
 		String q2ContentString = "id는 자동으로 생성되나요?";
+		String aString = "네 자동으로 생성됩니다.";
 
 //		// 질문 데이터 저장
 //		Question q1 = new Question();
@@ -82,15 +86,31 @@ class SbbApplicationTests {
 //		this.questionRepository.delete(q);
 //		assertEquals(1, this.questionRepository.count());
 
-		// Save answer
+//		// Save answer
+//		Optional<Question> oq = this.questionRepository.findById(2);
+//		assertTrue(oq.isPresent());
+//		Question q = oq.get();
+//
+//		Answer a = new Answer();
+//		a.setContent(aString);
+//		a.setQuestion(q); // 어떤 질문의 답변인지 알기 위해 Question 객체 필요
+//		a.setCreateDate(LocalDateTime.now());
+//		this.answerRepository.save(a);
+
+//		// Lookup answer - id가 1인 답변 조회
+//		Optional<Answer> oa = this.answerRepository.findById(1);
+//		assertTrue(oa.isPresent());
+//		Answer a = oa.get();
+//		assertEquals(2, a.getQuestion().getId());
+
+		// find question data by answer data
 		Optional<Question> oq = this.questionRepository.findById(2);
 		assertTrue(oq.isPresent());
 		Question q = oq.get();
 
-		Answer a = new Answer();
-		a.setContent("네 자동으로 생성됩니다.");
-		a.setQuestion(q); // 어떤 질문의 답변인지 알기 위해 Question 객체 필요
-		a.setCreateDate(LocalDateTime.now());
-		this.answerRepository.save(a);
+		List<Answer> answerList = q.getAnswerList();
+
+		assertEquals(1, answerList.size());
+		assertEquals(aString, answerList.get(0).getContent());
 	}
 }
