@@ -1,0 +1,46 @@
+<h1>자주 사용하는 타임리프(Thymeleaf)의 3가지 속성</h1>
+<hr>
+<h2>1. 분기문 속성</h2>
+<ul>
+	<li>
+		if문, else if문 등<br>
+		<code>th:if="${question != null}"</code>
+	</li>
+</ul>
+
+<h2>2. 반복문 속성</h2>
+<ul>
+	<li>
+		for each문과 유사<br>
+		<code>th:each="question : ${questionList}"</code>
+	</li>
+	<li>
+		loop 객체 활용<br>
+		<code>th:each="question, loop : ${questionList}"</code>
+	</li>
+	<ul>
+		<li>loop.index: 루프 반복 순서, 0부터 1씩 증가</li>
+		<li>loop.count: 루프 반복 순서, 1부터 1씩 증가</li>
+		<li>loop.size: 반복 객체의 요소 개수(ex. questionList의 요소 개수)</li>
+		<li>loop.first: 루프의 첫 번째 요소면 true</li>
+		<li>loop.last: 루프의 마지막 요소면 true</li>
+		<li>loop.odd: 루프의 홀수 번째 요소면 true</li>
+		<li>loop.even: 루프의 짝수 번째 요소면 true</li>
+		<li>loop.current: 현재 대입된 객체와 동일(ex. question))</li>
+	</ul>
+</ul>
+
+<h2>3. 텍스트 속성</h2>
+<ul>
+	<li>
+		해당 요소의 텍스트값 출력<br>
+		<code>th:text="${question.subject}"</code>
+	</li>
+	<li>
+		이렇게도 출력 가능<br>
+		<tr th:each="question : ${questionList}">
+			<td>[[${question.subject}]]</td>
+			<td>[[${question.createDate}]]</td>
+		</tr>
+	</li>
+</ul>
