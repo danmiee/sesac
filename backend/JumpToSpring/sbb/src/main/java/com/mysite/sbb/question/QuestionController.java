@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import lombok.RequiredArgsConstructor;
 
@@ -24,5 +25,10 @@ public class QuestionController {
 
 		model.addAttribute("questionList", questionList);
 		return "question_list"; // question_list.html 파일 호출
+	}
+
+	@GetMapping("/question/detail/{id}")
+	public String detail(Model model, @PathVariable("id") Integer id) {
+		return "question_detail";
 	}
 }
