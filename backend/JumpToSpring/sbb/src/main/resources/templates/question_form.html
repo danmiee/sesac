@@ -1,16 +1,27 @@
 <html layout:decorate="~{layout}">
 <div class="container" layout:fragment="content">
 	<h5 class="my-3 border-bottom pb-2">질문등록</h5>
-	<form th:action="@{/question/create}" method="post">
+	
+	<!-- th:object로 form 입력 항목들이 QuestionForm과 연결됨 => get매핑 메서드 변경 필요 -->
+	<form th:action="@{/question/create}" th:object="${questionForm}" method="post">
+		
+		<!-- 검증 실패 오류 메세지 노출 -->
+		<div class="alert alert-danger" role="alert" th:if="${#fields.hasAnyErrors()}">
+			<div th:each="err:${#fields.allErrors()}" th:text="${err}"></div>
+		</div>
+		
 		<div class="mb-3">
 			<label class="form-label" for="subject">제목</label>
 			<input class="form-control" type="text" name="subject" id="subject" />
 		</div>
+		
 		<div class="mb-3">
 			<label class="form-label" for="content">내용</label>
 			<textarea class="form-control" name="content" id="content" rows="10"></textarea>
 		</div>
+		
 		<input class="btn btn-primary my-2" type="submit" value="저장" />
+
 	</form>
 </div>
 </html>

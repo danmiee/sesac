@@ -40,7 +40,7 @@ public class QuestionController {
 	}
 
 	@GetMapping("/create")
-	public String questionCreate() {
+	public String questionCreate(QuestionForm questionForm) {
 		return "question_form";
 	}
 
@@ -56,7 +56,7 @@ public class QuestionController {
 	@PostMapping("/create")
 	// 매개변수를 검증이 수행된 결과를 의미하는 객체로 변경
 	// valid 후 BindingResult 나와야 정상 반영됨
-	public String questionCreate(@Valid QuestionFrom questionFrom, BindingResult bindingResult) {
+	public String create(@Valid QuestionForm questionFrom, BindingResult bindingResult) {
 		// 오류나면 질문 등록 화면으로 돌아가기
 		if (bindingResult.hasErrors()) {
 			return "question_form";
