@@ -6,6 +6,17 @@
 <h1 th:text="${question.subject}"></h1>
 <div th:text="${question.content}"></div>
 
+<hr>
+
+<h5 th:text="|${#lists.size(question.answerList)}개의 답변이 있습니다.|"></h5>
+<div>
+	<ul>
+		<li th:each="answer : ${question.answerList}" th:text="${answer.content}"></li>
+	</ul>
+</div>
+
+<hr>
+
 <!-- 답변 저장용 폼 -->
 <form th:action="@{|/answer/create/${question.id}|}" method="post">
 	<textarea name="content" id="content" rows="15"></textarea>
