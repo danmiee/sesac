@@ -12,12 +12,20 @@
 		
 		<div class="mb-3">
 			<label class="form-label" for="subject">제목</label>
+			<!--
 			<input class="form-control" type="text" name="subject" id="subject" />
+			-->
+			<!-- 오류 발생 시에도 기존 입력값 유지 (th:field) -->
+			<input class="form-control" th:field="*{subject}" />
 		</div>
 		
 		<div class="mb-3">
 			<label class="form-label" for="content">내용</label>
+			<!--
 			<textarea class="form-control" name="content" id="content" rows="10"></textarea>
+			-->
+			<!-- 오류 발생 시에도 기존 입력값 유지 (th:field) -->
+			<textarea class="form-control" rows="10" th:field="*{content}"></textarea>
 		</div>
 		
 		<input class="btn btn-primary my-2" type="submit" value="저장" />
