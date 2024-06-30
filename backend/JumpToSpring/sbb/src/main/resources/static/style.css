@@ -1,0 +1,15 @@
+code {
+    padding: 0.25rem;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    font-family: "Consolas", "Sans Mono", "Courier", "monospace";
+    font-size: 0.75rem;
+}
+
+textarea {
+	width:100%;
+}
+
+input[type=submit] {
+	margin-top:10px;
+}
