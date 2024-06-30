@@ -1,15 +1,18 @@
-<!-- static 디렉토리가 스태틱 파일들의 루트 디렉토리임 -->
+<!-- static 디렉토리가 스태틱 파일들의 루트 디렉토리임
 <link rel="stylesheet" type="text/css" th:href="@{/bootstrap.min.css}">
+<div class="container my-3">
+-->
 
 <!--
 <h1>제목</h1>
 <div>내용</div>
-
 <hr>
 -->
-
-<div class="container my-3">
 	
+<!-- layout.html 상속 -->
+<html layout:decorate="~{layout}">
+<div layout:fragment="content" class="container my-3">
+
 	<!-- 질문 -->
 	<h2 class="border-bottom py-2" th:text="${question.subject}"></h2>
 	<div class="card my-3">
@@ -45,3 +48,4 @@
 		<input class="btn btn-primary-2" type="submit" value="답변등록" />
 	</form>
 </div>
+</html>
