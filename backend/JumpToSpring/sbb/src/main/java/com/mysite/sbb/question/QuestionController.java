@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import lombok.RequiredArgsConstructor;
 
 @Controller
-@RequiredArgsConstructor
+@RequiredArgsConstructor // final 속성 포함하는 생성자 자동 완성
 public class QuestionController {
 
 	private final QuestionRepository questionRepository;
