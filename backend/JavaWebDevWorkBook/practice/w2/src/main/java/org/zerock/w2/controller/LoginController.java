@@ -39,6 +39,12 @@ public class LoginController extends HttpServlet {
 
                 MemberService.INSTANCE.updateUuid(mid, uuid);
                 memberDTO.setUuid(uuid);
+
+                Cookie rememberCookie = new Cookie("remember-me", uuid);
+                rememberCookie.setMaxAge(60*60*24*7);   // 쿠키 유효기간: 1주일
+                rememberCookie.setPath("/");
+
+                resp.addCookie(rememberCookie);
             }
 
             HttpSession session = req.getSession();
