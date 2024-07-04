@@ -13,6 +13,10 @@
 </head>
 <body>
 <h1>Todo List</h1>
+
+<h2>${loginInfo}</h2>
+<h3>${loginInfo.mname}</h3>
+
 <ul>
     <c:forEach items="${dtoList}" var="dto">
         <li>
@@ -25,6 +29,8 @@
 </ul>
 
 <form action="/logout" method="post">
+    <input type="text" name="mid" />
+    <input type="text" name="mpw" />
     <button>LOGOUT</button>
 </form>
 </body>
